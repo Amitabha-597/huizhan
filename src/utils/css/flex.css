@@ -4,6 +4,12 @@
     justify-content: center;
 }
 
+.flex_hcentersstart {
+    display: flex;
+    align-items:center;
+    justify-content:flex-start  ;
+}
+
 .flex_vcLbetween {
 
     display: flex;
@@ -50,6 +56,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.flex_saroundshstart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 

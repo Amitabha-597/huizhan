@@ -1,47 +1,7 @@
 
 <template>
   <div id="home">
-    <div class="swiper flex_vcLbetween">
-      <div class="swiper_left">
-        <el-carousel :autoplay="false" height="312px">
-          <el-carousel-item v-for="item in 10" :key="item">
-            <img src="../../assets/img/home/swiper.jpg" alt />
-          </el-carousel-item>
-        </el-carousel>
-      </div>
-      <div class="swiper_middle flex_v_between">
-        <div class="swiper_middle_top">
-          <el-carousel :autoplay="false" height="100%">
-            <el-carousel-item v-for="item in 10" :key="item">
-              <img src="../../assets/img/home/banner02.jpg" alt />
-            </el-carousel-item>
-          </el-carousel>
-        </div>
-        <div class="swiper_middle_bottom flex_vcLbetween">
-          <div>
-            <el-carousel :autoplay="false" height="100%">
-              <el-carousel-item v-for="item in 10" :key="item">
-                <img src="../../assets/img/home/swiper.jpg" alt />
-              </el-carousel-item>
-            </el-carousel>
-          </div>
-          <div>
-            <el-carousel :autoplay="false" height="100%">
-              <el-carousel-item v-for="item in 10" :key="item">
-                <img src="../../assets/img/home/swiper.jpg" alt />
-              </el-carousel-item>
-            </el-carousel>
-          </div>
-        </div>
-      </div>
-      <div class="swiper_right">
-        <el-carousel :autoplay="false" height="100%">
-          <el-carousel-item v-for="item in 10" :key="item">
-            <img src="../../assets/img/home/banner03.jpg" alt />
-          </el-carousel-item>
-        </el-carousel>
-      </div>
-    </div>
+   
     <!-- 最新信息 -->
     <div class="latestinfo">
       <div class="title">
@@ -252,6 +212,7 @@
         </div>
       </div>
     </div>
+    <!-- 新闻 -->
     <div class="insureornews flex_vcLbetween">
       <div class="insureor">
         <div class="title">
@@ -452,35 +413,7 @@ export default {
   width: 100%;
   height: 100%;
 
-  .swiper {
-    margin: 40px 0 70px 0;
-    width: 100%;
-    height: 312px;
-    .swiper_left {
-      width: 460px;
-      height: 312px;
-    }
-    .swiper_middle {
-      width: 460px;
-      height: 100%;
-      .swiper_middle_top {
-        width: 460px;
-        height: 146px;
-      }
-      .swiper_middle_bottom {
-        width: 100%;
-        height: 146px;
-        div {
-          width: 220px;
-          height: 146px;
-        }
-      }
-    }
-    .swiper_right {
-      width: 220px;
-      height: 100%;
-    }
-  }
+
   .latestinfo {
     width: 100%;
     height: 376px;

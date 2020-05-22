@@ -16,6 +16,31 @@ const routes = [
         name: "Home",
         component: () => import("@/views/HomeComponents/Home.vue"),
       },
+      {
+        path: "/order",
+        name: "order",
+        component: () => import("@/views/HomeComponents/Order.vue"),
+      },
+      {
+        path: "/model",
+        name: "model",
+        component: () => import("@/views/HomeComponents/Model.vue"),
+      },
+      {
+        path: "/enterprise",
+        name: "enterprise",
+        component: () => import("@/views/HomeComponents/Enterprise.vue"),
+      },
+      {
+        path: "/factory",
+        name: "Factory",
+        component: () => import("@/views/HomeComponents/Factory.vue"),
+      },
+      {
+        path: "/news",
+        name: "News",
+        component: () => import("@/views/HomeComponents/News.vue"),
+      },
     ],
   },
   {
